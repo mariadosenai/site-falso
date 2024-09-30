@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra e Venda de Celulares</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>DinoPoint</h1>
+        <p>Cadastre-se para concorrer a um celular!</p>
+    </header>
+
+    <main>
+        <section id="form-section">
+            <h2>Cadastro</h2>
+            <form id="cadastroForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" required><br>
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" required><br>
+
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" name="estado" required><br>
+
+                <button type="submit">Cadastrar</button>
+            
+            <p id="message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>"Tecnologia Pré-Histórica, Preços Extintos!".</p>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>

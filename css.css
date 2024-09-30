@@ -1,0 +1,85 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 6 de set. de 2024, 16:00:09
+    Author     : maria_gessner
+*/
+/* Configurações globais */
+/* Configurações globais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    color: #2e7d32; 
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1b5e20; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #388e3c; /* Verde intermediário */
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1b5e20; /* Verde escuro */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #388e3c; /* Um verde mais claro no hover */
+}
+
+#message {
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1b5e20; /* Verde escuro */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
